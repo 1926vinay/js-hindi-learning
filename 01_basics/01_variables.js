@@ -2,7 +2,7 @@ const accountId = 144553
 let accounEmail = "1926kumarvinay@gmail.com"
 var accountPassword = "1234"
 accountCity = "Patna" // also a way to declare the variable, but not a good practice.
-let accountState; // it will give the value undefined, until you assign a value to it.
+let accountState; // it will give the value undefined, until you assign a value to it just like above variables.
 
 // accountId=2 // can't declare constant variables twice in the code.
 /*

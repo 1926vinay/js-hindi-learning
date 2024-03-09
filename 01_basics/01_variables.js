@@ -10,8 +10,8 @@ prefer not to use var
 bacause of issues in block scope({}), and functional scope
 */
 
-accountEmail="hc@gmail.com"
-accountPassword="2121"
-accountCity="rajasthan"
+accountEmail="hc@gmail.com";
+accountPassword="2121";
+accountCity="rajasthan";
 console.log(accountId);
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]); // it will give the result in tabular format. Just type variable names in square brackets, ex-> [variable_name1,variabl_name2...]

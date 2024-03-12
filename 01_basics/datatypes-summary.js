@@ -46,3 +46,25 @@ the typeof operator link (for interview purpose): 13.5.3 The typeof Operator
 https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator
 
 */
+
+/*********************************************************************************************/
+//Stack (Primitive data types). Goes in the stack (and get copied value) 
+let myYouTubename="vinay@gmail.com";
+
+let anothername=myYouTubename; //it will give the copied value of myYouTubename not the original value.
+anothername="kumar@gmail.com"; //you are changing in the copied value that you got from myYouTubename, that's why the original value of myYouTubename remains unchanged.
+
+console.log(myYouTubename);  //output->vinay@gmail.com
+console.log(anothername);    //output->kumar@gmail.com
+
+//Heap (Non-primitive data types). Goes in the Heap (and get the reference of the original value not of the copied value)
+let user1={
+    email:"vinay@gmail.com",
+    upi:"123@ybl"
+}
+
+let user2=user1; //it will give the 'reference of the original value' of user1 directly from heap.
+user2.email="kumar@gmail.com";// you are changing the original value not the copied value.
+
+console.log(user1.email);  //output->kumar@gmail.com
+console.log(user2.email);  //output->kumar@gmail.com

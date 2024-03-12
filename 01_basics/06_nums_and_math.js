@@ -20,15 +20,16 @@ const hundred=1000000;
 //console.log(hundred.toLocaleString('en-IN'));// now it will give according to Indian number system like-> 10,00,000
 
 /****************************************maths****************************************************** */
+
 // console.log(Math.abs(-4));//it will make the negative value to positive.
 // console.log(Math.round(4.3))//it represents according to basic maths.
 // console.log(Math.min(2,5,3,7,8)); // 3
 // console.log(Math.max(2,5,3,7,8)); // 8
-console.log(Math.floor(3.0)); //it gives the nearest lowest integer. 3.1,3.2....3.9 for all these the output will be 3.
-console.log(Math.ceil(3.0));  //it gives the nearest largets integer. 3.1,3.2....3.9 for all these the output will be 4.
+// console.log(Math.floor(3.0)); //it gives the nearest lowest integer. 3.1,3.2....3.9 for all these the output will be 3.
+// console.log(Math.ceil(3.0));  //it gives the nearest largets integer. 3.1,3.2....3.9 for all these the output will be 4.
 
 
-//Math.random() //it gives the value between 0 an 1 both inclusive.
+Math.random() //it gives the value between 0 an 1 both inclusive.
 //basically you can use it to build ludo game where the value is fixed between 1 and 6.
 
 //console.log(Math.random()); //it wil give the value between 0 and 1 (both inclusive).

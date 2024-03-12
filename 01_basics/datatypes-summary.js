@@ -13,7 +13,7 @@ by doing so, it will automatically convert it into BigInt.
 */
 
 /*
-Refernces (Non-Primitive data types):
+Refernces (Non-Primitive data types): the datatypes of all non-primitive, is said to be function and the return type of function is said to be object function.
 Arrays, Objects, Functions.
 
 Arrays:
@@ -39,4 +39,10 @@ For example, the following code is valid JavaScript:
 
 let x = 5; // x is a number
 x = "hello"; // x is now a string
+*/
+
+/*
+the typeof operator link (for interview purpose): 13.5.3 The typeof Operator
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator
+
 */

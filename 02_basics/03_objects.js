@@ -1,6 +1,6 @@
 //we can declare object in js with two ways  1st.) literal & 2nd.) constructor,
 //when we create object with constructor then "singleton" objects form and 
-//if we make in another way i.e, from literarals, then will it have multiple instance.
+//if we make in another way i.e, from literals, then it wil have multiple instances.
 
 //singleton
 // Object.create   //creating object with constructor method have singleton(discuss later)

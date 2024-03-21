@@ -1,11 +1,13 @@
 //const tinderuser=new Object() //output-> {}  //singleton object
-
+/*
 const tinderuser={} //output-> {}  //non-singleton object
 tinderuser.id="1234abc",
 tinderuser.name="Vinay",
 tinderuser.isloggedin=false
-//console.log(tinderuser);
+console.log(tinderuser);
+*/
 
+/*
 //we can pass multiple objects also in 1 object
 const regularuser={       //main object
     email:"1926kumarvinay@gmail.com",
@@ -16,9 +18,10 @@ const regularuser={       //main object
         }
     }
 }
-//console.log(regularuser.fullname.userfullname.first)
+console.log(regularuser.fullname.userfullname.first)
+*/
 
-
+/*
 //merge multiple objects
 const obj1={
     1:"a",
@@ -30,14 +33,16 @@ const obj2={
 }
 
 //ways for merging
-//const obj3={obj1,obj2};   
-//const obj3=Object.assign({},obj1,obj2);
 
+//const obj3={obj1,obj2};   //also a way.
+//const obj3=Object.assign({},obj1,obj2);   //also a way.
 //spread operator  // best way to merge for both arrays and objects.
+
 const obj3={...obj1,...obj2}  // easy, simple and latest way to merge multiple objects.
-//console.log(obj3);
+console.log(obj3); //output-> { '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
+*/
 
-
+/*
 // console.log(tinderuser) //output-> { id: '1234abc', name: 'Vinay', isloggedin: false }
 // console.log(Object.keys(tinderuser))  //output-> [ 'id', 'name', 'isloggedin' ]  //all keys in arrays.
 // console.log(Object.values(tinderuser))  //output-> [ '1234abc', 'Vinay', false ]  //all values of keys in arrays.
@@ -46,8 +51,9 @@ const obj3={...obj1,...obj2}  // easy, simple and latest way to merge multiple o
 
 //you can also ask whether it contains the asked property or not. output-> true/false
 //console.log(tinderuser.hasOwnProperty('isloggedin'))  //output-> true
+*/
 
-
+/*
 //object de-structuring  //just for the knowledge
 
 const course={
@@ -61,6 +67,7 @@ console.log(course["courseinstructor"]);  //normal way of calling property
 //de-structuring the object
 const {courseinstructor:instructor}=course  //assign the property name into any name you want like instructor.
 console.log(instructor);
+*/
 
 /*
 //json format //objects

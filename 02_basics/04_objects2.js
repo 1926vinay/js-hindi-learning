@@ -38,11 +38,44 @@ const obj3={...obj1,...obj2}  // easy, simple and latest way to merge multiple o
 //console.log(obj3);
 
 
-console.log(tinderuser) //output-> { id: '1234abc', name: 'Vinay', isloggedin: false }
-console.log(Object.keys(tinderuser))  //output-> [ 'id', 'name', 'isloggedin' ]  //all keys in arrays.
-console.log(Object.values(tinderuser))  //output-> [ '1234abc', 'Vinay', false ]  //all values of keys in arrays.
-console.log(Object.entries(tinderuser)) //output-> [ [ 'id', '1234abc' ], [ 'name', 'Vinay' ], [ 'isloggedin', false ] ]  //it will give in array of arrays,
+// console.log(tinderuser) //output-> { id: '1234abc', name: 'Vinay', isloggedin: false }
+// console.log(Object.keys(tinderuser))  //output-> [ 'id', 'name', 'isloggedin' ]  //all keys in arrays.
+// console.log(Object.values(tinderuser))  //output-> [ '1234abc', 'Vinay', false ]  //all values of keys in arrays.
+// console.log(Object.entries(tinderuser)) //output-> [ [ 'id', '1234abc' ], [ 'name', 'Vinay' ], [ 'isloggedin', false ] ]  //it will give in array of arrays,
 //it will keep each key value pair in single array in which 1st value will be key and 2nd value will be value and so on..in one array.
 
 //you can also ask whether it contains the asked property or not. output-> true/false
-console.log(tinderuser.hasOwnProperty('isloggedin'))  //output-> true
+//console.log(tinderuser.hasOwnProperty('isloggedin'))  //output-> true
+
+
+//object de-structuring  //just for the knowledge
+
+const course={
+    coursename:"js hindi",
+    price:"999",
+    courseinstructor:"Vinay"
+}
+console.log(course.courseinstructor);  //normal way of calling property
+console.log(course["courseinstructor"]);  //normal way of calling property
+
+//de-structuring the object
+const {courseinstructor:instructor}=course  //assign the property name into any name you want like instructor.
+console.log(instructor);
+
+/*
+//json format //objects
+{
+    "name":"vinay",
+    "coursename":"js in hindi",
+    "price":"free"
+}
+
+//json format //arrays
+[
+    {},
+    {},
+    {}
+]
+
+json is simply a javascript notation and is not limited to just javascript but also used in almost all API insdustry whether you are writing in php, rubyn, etc., you have to send objects in json format only.
+*/

@@ -10,17 +10,18 @@ console.log(result); //output-> 11
 
 /*
 //also a way (chai aur code)
-function addTwoNumbers(number1,number2){ 
+function addTwoNumbers(number1,number2){   //passing parameters
     console.log(number1+number2);
 }
-addTwoNumbers(5,6); //output-> 11
+addTwoNumbers(5,6); //output-> 11      //passing arguements
 */
 
 /*
 //difference between parameters and arguements
 
 //when you are defining the function and passing the values, then they are called parameters.
-function addTwoNumbers(number1,number2){  //parameters
+function addTwoNumbers(number1,number2)  //parameters
+{
 
 }
 //when you are calling the function and passing the values then they are called arguements.

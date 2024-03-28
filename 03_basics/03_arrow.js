@@ -9,7 +9,7 @@ const user={
 }
 console.log(this);  //output-> {}  //bcz we are in node environment, if you do this in browser in inspect element then the result will be different.  
 //because earlier, there was only one way to execute javascript which is in browser becuase the engine which execute javascript was only present in browser.
-//now we have separated that engine, and now we have standalone engines named node,adino,bun, etc.,. that is why when we execute javascript ij browser, then the global object "window-object" will be executed.
+//now we have separated that engine, and now we have standalone engines named node, deno, bun, etc.,. that is why when we execute javascript in browser, then the global object "window-object" will be executed.
 //but if you execute in node environment then it will just print-> {}, "empty-object".
 // user.welcomeMessage();
 // user.name="Sam";

@@ -1,4 +1,5 @@
 //if statement //normal as we know 
+//else and else if statement
 
 const isUserloggedIn = true
 const temperature = 41

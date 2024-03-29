@@ -52,3 +52,5 @@ if (userLoggedIn && debitCard && 2==3) {
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("User logged in");
 }
+
+//Nullish Coalescing Operator(??) and Terniary Operator(?) are explained in trthy.js file
